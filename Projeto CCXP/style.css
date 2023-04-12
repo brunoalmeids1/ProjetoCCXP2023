@@ -1,0 +1,112 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background: #FFD900;
+    height: 50px;
+    padding: 25px 500px 25px 102px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+}
+
+.left{
+    text-align: center;
+    width: 50%;
+    height: 550px;
+    background: #514988;
+    color: white;
+
+}
+
+    #title{
+        margin-top: 20px;
+        font-size: 60px;
+        font-weight: bold;
+        color:#F3C61F;
+    }
+
+    #date{
+        font-size: 20px;
+        margin-top: -30px;
+    }
+
+    #content{
+        margin-top: 70px;
+        margin-left: 17px;
+        font-size: 25px;
+    }
+
+.right{
+    width: 50%;
+    height: 550px;
+}
+
+    #countdown{
+        display: grid;
+        grid-auto-flow: column;
+        align-items: center;
+        margin-top: -30px;
+        margin-left: 40px;
+        font-size: 40px;
+        color: #514988;
+        font-weight: bold;
+    }
+
+    #notice{
+        margin-top: -50px;
+        margin-left: 40px;
+        font-size: 23px ;
+        color: #E33881;
+    }
+
+    video{
+        width: 95%;
+        margin-top: 20px;
+        margin-left: 13px;
+    }
+
+#ticket{
+    height: 320px;
+}
+
+    #reminder{
+      position: absolute;
+      margin-top: -140px;
+      margin-left: 119px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #F3C61F;
+    }
+
+    .cards{
+        display:flex;
+        justify-content: space-around;
+        margin-top: 40px;
+        margin-left: 108px;
+    }
+
+    button{
+        width: 400px;
+        height: 100px;
+        margin-left: 100px;
+        border-radius: 10px;
+        border: none;
+        background: #514988;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: pointer;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    button:hover{
+        background: #F3C61F;
+    }
